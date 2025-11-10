@@ -49,6 +49,56 @@ of each Attribute, ”Amount” is the amount of each transaction, and the final
 <br>
 <br>
 
+
+## You can run the project either **locally (Jupyter Notebook)** or on **Google Colab**.
+
+---
+
+## 🚀 Getting Started
+
+### 🔹 Local Setup (Using Anaconda & Jupyter Notebook)
+
+1. **Open Anaconda Prompt**  
+   It will open in your default user directory.
+
+2. **Navigate to the Project Directory**  
+   Use the `cd` command to move to your project folder:
+   ```bash
+   cd path_to_your_project_folder
+
+
+3. **Launch Jupyter Notebook**
+
+   ```bash
+   jupyter notebook
+   ```
+
+4. **Open the Notebook**
+   Open the file named:
+
+   ```
+   Credit Card Fraud Detection Using Machine Learning – Local Version.ipynb
+   ```
+
+5. **Run All Cells**
+   Execute all cells sequentially to train and test the model.
+
+---
+
+### ☁️ Google Colab Version
+
+1. Visit [Google Colab](https://colab.research.google.com/)
+2. Log in using your **Gmail account**
+3. Upload the file:
+
+   ```
+   Credit Card Fraud Detection Using Machine Learning – Colab Version.ipynb
+   ```
+4. Go to **Runtime → Run all** to execute all cells.
+
+```
+```
+
 ## Future Work 
 There are many ways to improve the model, such as using it on different datasets with various sizes and data types or by changing the data splitting ratio and viewing it from a different algorithm perspective. An example can be merging telecom datato calculate the location of people to have better knowledge of the location of the card owner while his/her credit card is being used; this will ease the detection because if the card owner is in Dubai and a transaction of his card was made in Abu Dhabi, it
 will easily be detected as Fraud.
